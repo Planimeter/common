@@ -41,9 +41,10 @@ function color:__tostring()
 	")"
 end
 
-color.red    = color( 255,   0,   0, 255 )
-color.white  = color( 255, 255, 255, 255 )
-color.black  = color(   0,   0,   0, 255 )
+color.transparent = color()
+color.red         = color( 255,   0,   0, 255 )
+color.white       = color( 255, 255, 255, 255 )
+color.black       = color(   0,   0,   0, 255 )
 
-color.client = color( 168, 168, 123, 255 )
-color.server = color( 123, 158, 168, 255 )
+color.client      = color( 168, 168, 123, 255 )
+color.server      = color( 123, 158, 168, 255 )
